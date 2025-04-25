@@ -7,7 +7,6 @@ const Education = () => {
       <h2>Education</h2>
 
       <div className="education-timeline">
-        {/* RWTH Aachen University */}
         <div className="education-item">
           <img src="/UniRWTH.jpg" alt="RWTH Aachen University" />
           <div className="education-content">
