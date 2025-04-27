@@ -1,13 +1,14 @@
 .skills {
-    padding: 5em 2em;
-    background: linear-gradient(135deg, #f9fafe, #e8ebf8);
-    text-align: center;
-  }
+padding: 5em 2em;
+background: linear-gradient(135deg, #f9fafe, #e8ebf8);
+text-align: center;
+margin-top: 2.2em;
+}
   
 .skills h2 {
 font-size: 3rem;
 color: #3544d1;
-margin-bottom: 3rem;
+margin-bottom: 2.4rem;
 }
 
 .skills-grid {
