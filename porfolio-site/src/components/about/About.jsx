@@ -5,17 +5,29 @@ const About = () => {
     return (
         <div className="about">
             <h2>About Me</h2>
-            <p>
-                I am a passionate Industrial Engineering student at RWTH Aachen University with a focus on Mechanical Engineering. 
-                I have a strong foundation in engineering principles and am particularly interested in the integration of 
-                natural sciences with engineering and economics. Outside of academics, I enjoy exploring new technologies and 
-                applying my skills to real-world problems.
-            </p>
-            <p>
-                My goal is to contribute to innovative solutions in the field of industrial engineering and technology while 
-                constantly growing and improving my skill set. I'm always eager to learn new things and take on challenges that 
-                allow me to expand my knowledge and experience.
-            </p>
+            <div className="content">
+                <img 
+                    src="/HR2.jpg" 
+                    alt="Profile" 
+                    className="profile-img"
+                />
+                <div className="bio">
+                    <p>
+                        Hi, I'm Hristiyan Borisov, a passionate Industrial Engineer with a focus on Mechanical Engineering. I'm particularly interested in integrating engineering principles with 
+                        technology, science, and economics.
+                    </p>
+                    <p>
+                        Over the years, I've gained practical experience through various internships, thesis work, and projects. 
+                        I enjoy solving complex problems using innovative and technical solutions. I am always eager to grow my 
+                        skills and learn more about the latest technologies in the field.
+                    </p>
+                    <p>
+                        With a deep curiosity for both theory and application, I strive to bring a creative and analytical approach 
+                        to every task. Outside of my studies, I love exploring new technologies and methodologies that push the 
+                        boundaries of engineering and science.
+                    </p>
+                </div>
+            </div>
         </div>
     );
 };

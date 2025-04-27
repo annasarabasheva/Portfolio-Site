@@ -1,26 +1,60 @@
 .about {
-    background-color: white;
-    padding: 4rem 2rem;
+    background-color: #f9fafb;
+    padding: 6rem 2rem;
     width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    max-width: 1000px;
+    margin: 5rem auto;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-top: 3rem; /* Adds space between Hero and About Me */
+    position: relative;
+    z-index: 1;
 }
 
 .about h2 {
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    color: #3544d1;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: #1f2a44;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #1f2a44;
 }
 
-.about p {
-    font-size: 1.2rem;
-    color: #555;
-    line-height: 1.6;
-    max-width: 800px;
+.about .content {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    max-width: 900px;
     margin: 0 auto;
+}
+
+.about .content .profile-img {
+    width: 280px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.about .content .bio {
+    flex: 1;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.about .content .bio p {
     margin-bottom: 1.5rem;
+}
+
+.about .content .bio p:last-child {
+    margin-bottom: 0;
 }
