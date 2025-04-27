@@ -3,15 +3,6 @@
 
 Welcome to my **Porfolio Project** repository! This project showcases my skills, experience, and projects in a visually appealing and interactive manner. It's built with **React.js** and designed to give you a seamless experience when browsing my personal information and technical expertise.
 
-## 🚀 Table of Contents
-- [Tech Stack](#tech-stack)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contact](#contact)
-- [License](#license)
-
 ---
 
 ## 🛠️ Tech Stack
