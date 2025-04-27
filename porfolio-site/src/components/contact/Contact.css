@@ -6,25 +6,27 @@
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 8px;
-    margin-top: 3em;
-  }
-  
-  .contact h2 {
+    margin-top: 5em;
+}
+
+.contact h2 {
     font-size: 2.5rem;
-    color: #3544d1;
-    margin-bottom: 2.5rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 4rem;
     font-weight: 700;
-  }
-  
-  .contact-info {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Adding shadow */
+
+}
+
+.contact-info {
     display: flex;
     justify-content: space-evenly;
     gap: 2rem;
     flex-wrap: wrap;
     margin-top: 3rem;
-  }
-  
-  .contact-item {
+}
+
+.contact-item {
     background-color: white;
     padding: 3em 1.5em;
     border-radius: 12px;
@@ -32,41 +34,40 @@
     width: 280px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .contact-item:hover {
+}
+
+.contact-item:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact-icon {
+}
+
+.contact-icon {
     font-size: 2.5rem;
     color: #3544d1;
     margin-bottom: 1em;
-  }
-  
-  .contact-details h3 {
+}
+
+.contact-details h3 {
     font-size: 1.3rem;
     margin-bottom: 0.5em;
     color: #3544d1;
-  }
-  
-  .contact-details p,
-  .contact-details a {
+}
+
+.contact-details p,
+.contact-details a {
     font-size: 1rem;
     color: #555;
     line-height: 1.5;
-  }
-  
-  .contact-details a {
+}
+
+.contact-details a {
     color: #3544d1;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
-  }
-  
-  .contact-details a:hover {
+}
+
+.contact-details a:hover {
     color: #1a2da8;
     text-decoration: underline;
-  }
-  
+}

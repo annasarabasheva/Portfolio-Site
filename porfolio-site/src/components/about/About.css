@@ -1,0 +1,26 @@
+.about {
+    background-color: white;
+    padding: 4rem 2rem;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 3rem; /* Adds space between Hero and About Me */
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #3544d1;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}

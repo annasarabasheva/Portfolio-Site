@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
@@ -7,14 +8,16 @@ const Home = () => {
             <section className="hero">
                 <h1>Hi, I'm Hristiyan Borisov</h1>
                 <p>Welcome to my Portfolio</p>
-                <button onClick={() => window.scrollTo(0, document.body.scrollHeight)}>Explore More</button>
-               
+                <Link to="/about">
+                    <button>
+                        ABOUT ME
+                    </button>
+                </Link>
             </section>
+
             <section className="image"> 
                 <img src="/profile-pic.jpg" alt="profile-pic" />
             </section>
-
-
         </div>
     );
 };
