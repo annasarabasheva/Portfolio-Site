@@ -1,7 +1,10 @@
-# Portfolio-Site
-# Hristiyan Borisov Portfolio
+# 📂 Portfolio-Site
 
-Welcome to my **Porfolio Project** repository! This project showcases my skills, experience, and projects in a visually appealing and interactive manner. It's built with **React.js** and designed to give you a seamless experience when browsing my personal information and technical expertise.
+Welcome to my **Porfolio Project** repository! This project showcases the skills, experience, and projects of a client in a visually appealing and interactive manner. While this portfolio is not my personal portfolio, I created it as a practice project to enhance my web development skills. 
+
+The site is built with **React.js** and is designed to provide a seamless experience when browsing the client's personal information and technical expertise. This project served as a valuable opportunity to improve my understanding of React, UI/UX design, and responsive web development.
+
+Feel free to explore the project and the technologies used to build it!
 
 ---
 
