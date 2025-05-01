@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skills.css";
-import { FaPython, FaLanguage, FaLaptopCode, FaPeopleCarry } from "react-icons/fa";
+import { FaPython, FaLanguage, FaLaptopCode, FaPeopleCarry, FaCertificate } from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -21,9 +21,9 @@ const Skills = () => {
         <div className="skill-card">
           <FaPython className="skill-icon" />
           <h3>Programming</h3>
-          <p>Python Basics Certificate (SoftUni)</p>
-          <p>CFD Simulation with Cadence Omnis</p>
-          <p>Numerical Modeling & Analysis</p>
+          <p>Simulations with Python</p>
+          <p>Jupiter Notebook</p>
+          <p>Gurobi Optimization Software</p>
         </div>
 
         {/* Technical */}
@@ -43,7 +43,18 @@ const Skills = () => {
           <p>Team Leadership (Dormitory Representative)</p>
           <p>Event Organization (Festival Management)</p>
         </div>
+
+          {/* Certificates */}
+        <div className="skill-card">
+          <FaCertificate className="skill-icon" />
+          <h3>Certificates</h3>
+          <p>Python Basics Certificate (SoftUni)</p>
+          <p>CFD Simulation with Cadence Omnis</p>
+        </div>
+
       </div>
+
+      
     </section>
   );
 };
