@@ -35,11 +35,11 @@ const Education = () => {
 
             <div className="subsection">
               <h4>Thesis</h4>
-              <p>
-                Conducted at the Institute for Power Plant Technology, Steam and Gas Turbines (IKDG)<br />
-                <strong>Topic:</strong> "Analysis of the transcritical heat pump process for different working fluids"<br />
-                <strong>Grade:</strong> 1.3
-              </p>
+              <ul>
+                <li>Conducted at the Institute for Power Plant Technology, Steam and Gas Turbines (IKDG)</li>
+                <li><strong>Topic:</strong> "Analysis of the transcritical heat pump process for different working fluids"</li>
+                <li><strong>Grade:</strong> 1.3</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -50,9 +50,12 @@ const Education = () => {
             <h3>Foreign Language High School "Romain Rolland"</h3>
             <span className="degree">High School Diploma</span>
             <span className="duration">Stara Zagora, Bulgaria | 2013 - 2018</span>
-            <p>Core Subjects: German, English, Mathematics, Bulgarian</p>
-            <p>Participation in European Projects: SchulBrücke Europe 2016</p>
-            <p>Participation in the German Language Olympiad from 8th to 12th grade, reaching the national level.</p>
+            <ul>
+              <li>Core Subjects: German, English, Mathematics, Bulgarian</li>
+              <li>Participation in European Projects: SchulBrücke Europe 2016</li>
+              <li>Participation in the German Language Olympiad from 8th to 12th grade, reaching the national level.</li>
+            </ul>
+           
           </div>
         </div>
       </div>
