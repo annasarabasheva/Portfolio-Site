@@ -58,3 +58,45 @@
 .about .content .bio p:last-child {
     margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+    .about {
+        padding: 4rem 2rem;
+        margin: 3rem auto;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .about .content {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .profile-img {
+        display: none;
+    }
+
+    .about .content .profile-img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 1.5rem;
+    }
+
+    .about .content .bio {
+        font-size: 1rem;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about .content .bio p {
+        margin-bottom: 1.5rem;
+    }
+
+    .about .content .bio p:last-child {
+        margin-bottom: 0;
+    }
+}
