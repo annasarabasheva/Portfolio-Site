@@ -1,19 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="header">
-        <nav>
-            <ul className="nav">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/education">Education</Link></li>
-                <li><Link to="/experience">Experience</Link></li>
-                <li><Link to="/skills"> Skills</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-            </ul>
-        </nav>
+      <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+        ☰
+      </button>
+      <nav>
+        <ul className={`nav ${menuOpen ? 'active' : ''}`}>
+          <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
+          <li><Link to="/education" onClick={() => setMenuOpen(false)}>Education</Link></li>
+          <li><Link to="/experience" onClick={() => setMenuOpen(false)}>Experience</Link></li>
+          <li><Link to="/skills" onClick={() => setMenuOpen(false)}>Skills</Link></li>
+          <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
+        </ul>
+      </nav>
     </header>
   );
 };

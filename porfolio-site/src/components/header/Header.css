@@ -62,3 +62,43 @@
   transform: translateY(-3px);
   background: rgba(255, 255, 255, 0.1);
 }
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 1100;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(44, 62, 80, 0.95);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .nav li {
+    margin: 0.5rem 0;
+  }
+}
