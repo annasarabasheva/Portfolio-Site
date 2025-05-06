@@ -24,7 +24,7 @@ This portfolio is built with the following technologies:
   - **Git & GitHub** (for collaboration and versioning)
 
 - **Deployment**:
-  -**Netlify**(connected with my github profile)
+  - **Netlify** (connected with my github profile)
 
 - **Other Tools**:
   - **Visual Studio Code** (code editor)
