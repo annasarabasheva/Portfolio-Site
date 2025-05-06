@@ -4,7 +4,9 @@ Welcome to my **Porfolio Project** repository! This project showcases the skills
 
 The site is built with **React.js** and is designed to provide a seamless experience when browsing the client's personal information and technical expertise. This project served as a valuable opportunity to improve my understanding of React, UI/UX design, and responsive web development.
 
-Feel free to explore the project and the technologies used to build it!
+Feel free to explore the project and the technologies used to build it by clicking following link:
+
+[**Live Portfolio**](https://hristiyan-borisov.netlify.app)
 
 ---
 
@@ -20,6 +22,9 @@ This portfolio is built with the following technologies:
 
 - **Version Control**:
   - **Git & GitHub** (for collaboration and versioning)
+
+- **Deployment**:
+  -**Netlify**(connected with my github profile)
 
 - **Other Tools**:
   - **Visual Studio Code** (code editor)
